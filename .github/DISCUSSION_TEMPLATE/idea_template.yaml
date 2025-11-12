@@ -1,0 +1,11 @@
+name: 💡 Idea
+description: Partagez vos idées ou suggestions
+title: "[IDEA] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Votre idée
+      placeholder: "Décrivez votre idée ici..."
+    validations:
+      required: true
