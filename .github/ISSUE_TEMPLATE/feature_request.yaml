@@ -1,0 +1,22 @@
+name: 🌟 Feature request
+description: Proposer une nouvelle fonctionnalité ou amélioration
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Description de la fonctionnalité
+      placeholder: "Ajout d'un mode sombre..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: "Cela permettrait d'améliorer la lisibilité la nuit."
+    validations:
+      required: true

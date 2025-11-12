@@ -1,0 +1,34 @@
+name: 🐞 Bug report
+description: Signaler un bug ou un comportement inattendu
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du bug
+      description: Décris le problème rencontré
+      placeholder: "Quand je clique sur le bouton, rien ne se passe..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      placeholder: |
+        1. Aller sur la page ...
+        2. Cliquer sur ...
+        3. Observer le bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu
+      placeholder: "Le bouton devrait ouvrir la fenêtre de dialogue."
+    validations:
+      required: true
